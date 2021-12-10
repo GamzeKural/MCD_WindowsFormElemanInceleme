@@ -14,6 +14,7 @@ namespace MCD_WindowsFormElemanInceleme
         public string urunKod { get; set; }
         public string urunRenk { get; set; }
         public string urunKategori { get; set; }
+        public string urunAciklama { get; set; }
         public List<urunOzellikTanim> urunOzellikListe { get; set; }
         public bool ekGaranti { get; set; }
 
